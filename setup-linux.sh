@@ -3,6 +3,7 @@
 # that performs them
 
 cp .vimrc ../
+cp .bashrc ../
 cp .gitconfig ../
 
 sudo apt-get install synaptic
