@@ -11,6 +11,7 @@ sudo apt-get install ssh
 sudo apt-get install vim-nox
 sudo apt-get install gitk git-gui
 sudo apt-get install build-essential
+sudo apt-get install dkms linux-headers-generic #needed by guest additions
 
 # TODO Set the bash prompt to something more colorful
 
