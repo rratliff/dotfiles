@@ -19,7 +19,7 @@ sudo apt-get install dkms linux-headers-generic #needed by guest additions
 sudo apt-get install python-software-properties
 sudo add-apt-repository ppa:chris-lea/node.js-legacy
 sudo apt-get update
-sudo apt-get install nodejs
+sudo apt-get install nodejs npm
 
 # Setup mysql
 sudo apt-get install mysql-client mysql-server
