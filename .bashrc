@@ -107,3 +107,6 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
 fi
 
 export VISUAL=vim
+
+# Add bin to the path
+export PATH=$PATH:~/bin
