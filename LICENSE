@@ -1,0 +1,21 @@
+linuxsetup: Setup a Linux VM with my preferred development environment
+Copyright (C) 2013 Robert Ratliff
+
+An exception applies: the file .bashrc is based on a version provided with
+one of the Ubuntu distributions I was using at the time it was created.
+I am not the copyright owner of most of the code in that file, but I
+believe it was published under a GNU General Public License as well.
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
