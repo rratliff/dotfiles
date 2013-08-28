@@ -13,6 +13,8 @@ sudo apt-get install gitk git-gui
 sudo apt-get install build-essential
 sudo apt-get install dkms linux-headers-generic #needed by guest additions
 
+# TODO Probably could remove LibreOffice packages
+# (these take up a lot of space but are not needed in a developer environment)
 # TODO Set the bash prompt to something more colorful
 
 # Setup node from the legacy ppa
