@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Setup a linux developer environment
 # Every VM I setup I seem to do similar steps, so here is a script
 # that performs them
