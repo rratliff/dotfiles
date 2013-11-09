@@ -38,6 +38,9 @@ install_packages () {
     sudo apt-get clean
     sudo apt-get autoremove
 
+    # Install system load indicator (useful only on Ubuntu desktop)
+    sudo apt-get install indicator-multiload
+
     # TODO Set the bash prompt to something more colorful
 
     # Setup node from the legacy ppa
