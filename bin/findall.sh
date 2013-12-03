@@ -8,5 +8,5 @@
 # as usually we are only interested in source files (e.g. *.cpp) or other
 # text data.
 
-find . -type f -print0| xargs -0 grep -c $1 | grep -v ":0$"
+find . -type f -print0| xargs -0 grep -c "$@" | grep -v ":0$"
 
