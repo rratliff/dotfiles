@@ -4,3 +4,6 @@ set sw=4
 set expandtab
 syntax on
 nnoremap <F5> :ls<CR>:buffer<Space>
+set hlsearch
+nnoremap <C-j> :bnext<CR>
+nnoremap <C-k> :bprev<CR>
