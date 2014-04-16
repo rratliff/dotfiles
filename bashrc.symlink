@@ -110,3 +110,7 @@ export VISUAL=vim
 
 # Add bin to the path
 export PATH=$PATH:~/bin
+
+# Scheme repl command line history and tab completion
+# from http://stackoverflow.com/a/11916365
+alias scheme='rlwrap -r -c -f "$HOME"/scheme_completions.txt scheme'
