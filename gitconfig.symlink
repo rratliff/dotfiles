@@ -3,3 +3,5 @@
 	email = ratliff.bobby@gmail.com
 [color]
 	ui = auto
+[push]
+	default = simple
