@@ -114,3 +114,12 @@ export PATH=$PATH:~/bin
 # Scheme repl command line history and tab completion
 # from http://stackoverflow.com/a/11916365
 alias scheme='rlwrap -r -c -f "$HOME"/scheme-completions.txt scheme'
+
+# Git shortcuts
+alias gs='git status'
+alias gc='git commit'
+alias gp='git pull'
+alias gpo='git push origin'
+alias gd='git diff'
+alias gb='git branch'
+
