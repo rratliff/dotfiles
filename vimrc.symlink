@@ -1,9 +1,25 @@
 set nocompatible
-filetype indent on
+
+filetype plugin indent on
+syntax on
 set sw=4
 set expandtab
-syntax on
-nnoremap <F5> :ls<CR>:buffer<Space>
+
+set hidden
+
 set hlsearch
+set incsearch
+set number
+set showmatch
+set title
+
+" Buffer navigation
+nnoremap <F5> :ls<CR>:buffer<Space>
 nnoremap <C-j> :bnext<CR>
 nnoremap <C-k> :bprev<CR>
+
+" highlight tabs and trailing spaces
+set list listchars=tab:➪\ ,trail:·
+
+" change directories to the current directory
+nnoremap ,cd :cd %:p:h<CR>
