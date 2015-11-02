@@ -36,7 +36,7 @@ Less
 | g       | go to top (not gg, as in vim) |
 | N       | repeat previous search, but in reverse direction |
 
-Note: vim scrolling commands work here too (C-f, C-b, C-d, C-u), though for bonus points you can leave of the Control modifier.
+Note: vim scrolling commands work here too (C-f, C-b, C-d, C-u), though for bonus points you can leave off the Control modifier.
 
 Vim
 ===
