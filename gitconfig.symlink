@@ -1,3 +1,5 @@
+[alias]
+	co = checkout
 [user]
 	name = Bobby Ratliff
 	email = ratliff.bobby@gmail.com
