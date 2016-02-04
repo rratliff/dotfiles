@@ -1,6 +1,6 @@
 #!/bin/bash
 
-. .bashrc
+. ~/.bashrc
 
 export CLICOLOR=1
 
