@@ -124,3 +124,5 @@ alias gd='git diff'
 alias gb='git branch'
 alias gg='git grep'
 
+# Add Apache Maven to the path
+export PATH=$PATH:~/Downloads/apache-maven-3.3.9/bin
