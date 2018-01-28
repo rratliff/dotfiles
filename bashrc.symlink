@@ -126,3 +126,4 @@ alias gg='git grep'
 
 # Add Apache Maven to the path
 export PATH=$PATH:~/Downloads/apache-maven-3.3.9/bin
+export PATH="/usr/local/opt/ruby@2.3/bin:$PATH"
