@@ -48,3 +48,13 @@ Vim
 | C-w h    | move focus to left window (works in XVim)  |
 | t (char) | till (excludes char)                       |
 | f (char) | find (includes char)                       |
+
+Vimwiki
+=======
+
+| command             | Description                              |
+|---------------------|------------------------------------------|
+| \ww                 | Goes to the index page |
+| Backspace           | Go back to parent(previous) wiki link |
+| Tab                 | Find next wiki link in current document |
+| :h vimwiki-mappings | Show keyboard shortcuts |
