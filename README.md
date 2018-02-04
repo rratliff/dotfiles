@@ -1,10 +1,10 @@
-linuxsetup
-==========
+dotfiles
+========
 
-Setup a Linux VM with my preferred development environment
+Setup Linux/macOS with some default settings.
 
-Instructions
-------------
+Instructions (old)
+------------------
 
     git clone https://github.com/rratliff/linuxsetup.git
     cd linuxsetup

@@ -1,7 +1,9 @@
-set nocompatible
+execute pathogen#infect()
 
+set nocompatible
 filetype plugin indent on
 syntax on
+
 set sw=4
 set expandtab
 
