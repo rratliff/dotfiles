@@ -127,3 +127,25 @@ alias gg='git grep'
 # Add Apache Maven to the path
 export PATH=$PATH:~/Downloads/apache-maven-3.3.9/bin
 export PATH="/usr/local/opt/ruby@2.3/bin:$PATH"
+export PATH="$PATH:/usr/local/lib/ruby/gems/2.3.0/gems/gollum-4.1.2/bin"
+export PATH="$PATH:~/Library/Python/3.6/bin"
+
+alias javas_avail='/usr/libexec/java_home -V'
+
+switch_java() {
+    if [[ $# != 1 ]]; then
+        echo "Must provide Java version (ie 1.6, 1.7, or 10 for Java SE 10)";
+        echo `/usr/libexec/java_home -V`
+        return 1
+    fi
+    local VERSION="$1";
+    local HOME="$(/usr/libexec/java_home -v $VERSION)";
+    if [[ $? != 0 ]]; then
+        echo "Could not find Java runtime for version $VERSION";
+        return 1;
+    fi
+    export JAVA_HOME="$HOME";
+    echo "Switched to Java version $VERSION at $HOME";
+    return 0
+}
+
