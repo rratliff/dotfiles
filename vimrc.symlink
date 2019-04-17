@@ -25,3 +25,5 @@ set list listchars=tab:➪\ ,trail:·
 
 " change directories to the current directory
 nnoremap ,cd :cd %:p:h<CR>
+
+let g:vimwiki_list = [{'path': '~/vimwiki/', 'syntax': 'markdown', 'ext': '.wiki'}]
