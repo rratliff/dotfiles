@@ -58,3 +58,5 @@ Vimwiki
 | Backspace           | Go back to parent(previous) wiki link |
 | Tab                 | Find next wiki link in current document |
 | :h vimwiki-mappings | Show keyboard shortcuts |
+| gll                 | Indent |
+
