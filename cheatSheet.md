@@ -48,6 +48,8 @@ Vim
 | C-w h    | move focus to left window (works in XVim)  |
 | t (char) | till (excludes char)                       |
 | f (char) | find (includes char)                       |
+| u        | undo |
+| C-r      | redo |
 
 Vimwiki
 =======
