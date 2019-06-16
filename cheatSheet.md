@@ -62,3 +62,9 @@ Vimwiki
 | :h vimwiki-mappings | Show keyboard shortcuts |
 | gll                 | Indent |
 
+Screen
+======
+
+How to scroll:
+
+C-a ESC enters copy mode, from there you can use pgUp or pgDown to scroll. ESC to get back to normal mode.
