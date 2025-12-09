@@ -1,6 +1,4 @@
-#!/bin/bash
-
-. ~/.bashrc
+source ~/.bashrc
 
 export CLICOLOR=1
 

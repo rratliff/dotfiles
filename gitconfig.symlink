@@ -17,5 +17,3 @@
 	trustExitCode = true
 [commit]
 	template = /Users/Robert/.stCommitMsg
-[safe]
-	bareRepository = explicit
