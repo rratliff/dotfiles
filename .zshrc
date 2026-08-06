@@ -19,6 +19,8 @@ alias gd='git diff'
 alias gb='git branch'
 alias gg='git grep'
 
+alias dotf='cd ~/dotfiles'
+
 ssh-add --apple-load-keychain -q
 
 export CLICOLOR=1
