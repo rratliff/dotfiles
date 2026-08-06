@@ -10,6 +10,7 @@ PROMPT='%F{green}%n@%m %F{blue}%~%f${vcs_info_msg_0_} %# '
 
 export PATH=$PATH:/opt/homebrew/bin
 export PATH=$PATH:$(brew --prefix python@3.13)/libexec/bin
+export PATH="$PATH:/Users/Robert/Library/Python/3.9/bin"
 
 alias gs='git status'
 
@@ -21,3 +22,9 @@ export CLICOLOR=1
 export PATH="$PATH:/Users/Robert/.lmstudio/bin"
 # End of LM Studio CLI section
 
+# Add bin to the path
+export PATH="$PATH:$HOME/.local/bin:$HOME/bin"
+export PATH="$PATH:~/dotfiles/bin"
+
+# Deno is a successor to NodeJS
+. "/Users/Robert/.deno/env"

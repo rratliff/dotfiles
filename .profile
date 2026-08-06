@@ -9,3 +9,5 @@ ssh-add --apple-use-keychain
 export PATH="$PATH:/Users/Robert/.lmstudio/bin"
 # End of LM Studio CLI section
 
+# Deno is a successor to NodeJS
+. "/Users/Robert/.deno/env"
