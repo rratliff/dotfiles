@@ -13,6 +13,11 @@ export PATH=$PATH:$(brew --prefix python@3.13)/libexec/bin
 export PATH="$PATH:/Users/Robert/Library/Python/3.9/bin"
 
 alias gs='git status'
+alias gc='git commit'
+alias gpo='git push'
+alias gd='git diff'
+alias gb='git branch'
+alias gg='git grep'
 
 ssh-add --apple-load-keychain -q
 
@@ -28,3 +33,5 @@ export PATH="$PATH:~/dotfiles/bin"
 
 # Deno is a successor to NodeJS
 . "/Users/Robert/.deno/env"
+
+alias javas_avail='/usr/libexec/java_home -V'

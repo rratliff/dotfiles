@@ -1,5 +1,38 @@
 Inspiration: https://gist.github.com/JoshuaEstes/2627607
 
+IntelliJ
+========
+
+Keymap customizations:
+
+* **Manage Projects** (Main Menu -> File -> File Open Actions -> Recent Projects)
+    * Set this one to Command+T (and remove the others)
+    * "Open new tab" muscle memory is handy for working with multiple projects
+* **Execute Gradle Task** (Plugins -> Gradle -> Execute Gradle Task)
+    * Set to Command+Shift+G
+    * Pops up a search window for any gradle task in the project.
+    * Muscle memory similar to macOS Finder "Go to Folder"
+
+Other customizations:
+
+* Disable code folding for imports by default
+
+Rectangle
+=========
+
+Window management tool. Currently my muscle memory is for the older "Spectacle compatible" config, despite the warning about overriding built-in shortcuts.
+
+BBEdit
+======
+
+* Appearance
+    * Application appearance -> Dark
+    * Editor color scheme -> XCode Dark
+* Menus and Shortcuts
+    * Search -> Live Search
+        * Set to Command+Shift+F
+        * Command+F still opens the default BBEdit Search window
+
 Shell utilities
 ===============
 
